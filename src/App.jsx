@@ -37,7 +37,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img
-            src="/bear.gif"
+            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
             className="mb-6"
           />
           <div className="text-4xl md:text-6xl font-bold text-center flex flex-col items-center space-y-4">
