@@ -1,6 +1,4 @@
 import { useState } from "react";
-import lovesvg from "./assets/All You Need Is Love SVG Cut File.png";
-import lovesvg2 from "./assets/Love In The Air SVG Cut File.png";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -39,10 +37,9 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img
-            src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
+            src="/bear.gif"
             className="mb-6"
           />
-
           <div className="text-4xl md:text-6xl font-bold text-center flex flex-col items-center space-y-4">
             <span>იესსსსსსს!!!</span>
             <span>ვიცოდი რომ დამთანხმდებოდი 🫶😘💘</span>
@@ -51,16 +48,16 @@ export default function Page() {
       ) : (
         <>
           <img
-            src={lovesvg}
+            src="/lovesvg.png"
             className="fixed animate-pulse top-10 md:left-24 left-6 md:w-40 w-28"
           />
           <img
-            src={lovesvg2}
+            src="/lovesvg2.png"
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
-          />
+            />
           <img
-            className="h-[230px] rounded-lg shadow-lg"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
+            className="h-[230px] rounded-lg shadow-lg"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             ანა, იქნები ჩემი ვალენტინი? 😍🥰
